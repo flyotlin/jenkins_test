@@ -14,7 +14,7 @@ pipeline {
 		}
     }
 	post {
-		alsways {
+		always {
 			echo 'This will always run'
 		}
 		success {
